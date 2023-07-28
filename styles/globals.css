@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --mainRed:#EB1D36;
+    --dark-cl:#252531;
+}
+/* WebKit (Safari and Chrome) */
+::-webkit-scrollbar {
+    width: 5px; /* width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--mainRed); /* color of the scrollbar thumb */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: var(--mainRed); /* color of the scrollbar thumb on hover */
+  }
+  
+  /* Firefox */
+  ::-moz-scrollbar {
+    width: 5px; /* width of the scrollbar */
+  }
+  
+  ::-moz-scrollbar-thumb {
+    background-color: var(--mainRed); /* color of the scrollbar thumb */
+  }
+  
+  ::-moz-scrollbar-thumb:hover {
+    background-color: var(--mainRed); /* color of the scrollbar thumb on hover */
+  }
+  
+  /* Microsoft Edge and IE */
+  ::-ms-scrollbar {
+    width: 5px; /* width of the scrollbar */
+  }
+  
+  ::-ms-scrollbar-thumb {
+    background-color: var(--mainRed); /* color of the scrollbar thumb */
+  }
+  
+  ::-ms-scrollbar-thumb:hover {
+    background-color: var(--mainRed); /* color of the scrollbar thumb on hover */
+  }
+.djg{
+    color: #252531cc;
+    background:#750a17;
+}
+.ant-input-group-addon{
+background-color:var(--mainRed) !important;
+}
+.ant-input-group-addon button{
+    display: flex !important;
+    align-items: center!important;
+    justify-content: center!important;
+}
+.searchBox .ant-drawer-body{
+    height: 100px !important;
+    overflow: hidden !important;
+    padding: 0px !important;
+    display: flex !important;
+    align-items: center!important;
+    justify-content: center!important;
+}
+.ant-input-wrapper {
+    width: 300px !important;
+}
+.ant-drawer-wrapper-body{
+    background-color: #252531 !important;
+    color: #fff;
+}
+.anticon-close{
+    color: #fff;
+    font-size: 21px;
+}
+/* Loadeer css */
+
+.spinner-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--dark-cl);
+    z-index: 999999;
+   }
+   
+   .sk-folding-cube {
+    position: absolute;
+    top: 48%;
+    left: 48%;
+    width: 40px;
+    height: 40px;
+    -webkit-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+   }
+   
+   .sk-folding-cube .sk-cube {
+    float: left;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+   }
+   
+   .sk-folding-cube .sk-cube:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--mainRed);
+    -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
+    animation: sk-foldCubeAngle 2.4s infinite linear both;
+    -webkit-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+   }
+   
+   .sk-folding-cube .sk-cube2 {
+    -webkit-transform: scale(1.1) rotateZ(90deg);
+    transform: scale(1.1) rotateZ(90deg);
+   }
+   
+   .sk-folding-cube .sk-cube3 {
+    -webkit-transform: scale(1.1) rotateZ(180deg);
+    transform: scale(1.1) rotateZ(180deg);
+   }
+   
+   .sk-folding-cube .sk-cube4 {
+    -webkit-transform: scale(1.1) rotateZ(270deg);
+    transform: scale(1.1) rotateZ(270deg);
+   }
+   
+   .sk-folding-cube .sk-cube2:before {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+   }
+   
+   .sk-folding-cube .sk-cube3:before {
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+   }
+   
+   .sk-folding-cube .sk-cube4:before {
+    -webkit-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+   }
+   
+   @-webkit-keyframes sk-foldCubeAngle {
+    0%,
+    10% {
+     -webkit-transform: perspective(140px) rotateX(-180deg);
+     transform: perspective(140px) rotateX(-180deg);
+     opacity: 0;
+    }
+    25%,
+    75% {
+     -webkit-transform: perspective(140px) rotateX(0deg);
+     transform: perspective(140px) rotateX(0deg);
+     opacity: 1;
+    }
+    90%,
+    100% {
+     -webkit-transform: perspective(140px) rotateY(180deg);
+     transform: perspective(140px) rotateY(180deg);
+     opacity: 0;
+    }
+   }
+   
+   @keyframes sk-foldCubeAngle {
+    0%,
+    10% {
+     -webkit-transform: perspective(140px) rotateX(-180deg);
+     transform: perspective(140px) rotateX(-180deg);
+     opacity: 0;
+    }
+    25%,
+    75% {
+     -webkit-transform: perspective(140px) rotateX(0deg);
+     transform: perspective(140px) rotateX(0deg);
+     opacity: 1;
+    }
+    90%,
+    100% {
+     -webkit-transform: perspective(140px) rotateY(180deg);
+     transform: perspective(140px) rotateY(180deg);
+     opacity: 0;
+    }
+   }
+
+   .ourProducts .slick-track{
+    display: flex !important;
+    gap: 10px !important;
+}
+.productSlider .slick-track{
+    display: flex !important;
+    gap: 10px !important;
+    height: 405px !important;
+    background-color: #fff !important;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: #EB1D36 !important;
+}
+.slick-next {
+    right: -19px !important;
+}
+.slick-prev {
+    left: -19px !important;
+}
+.producttext::-webkit-scrollbar {
+    display: none !important;
+}
+@media screen and (max-width:767px){
+    .productSlider .slick-track{
+        height: 350px !important;
+    } 
+}
