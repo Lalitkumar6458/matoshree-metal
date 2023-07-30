@@ -80,7 +80,7 @@ const Redirctpage=(link)=>{
     {
         slideData.map((item,index)=>{
             return(
-                <div className='h-[calc(100vh-110px)] bg-dark-cl relative flex items-center justify-center px-[5%]' key={item.id}>
+                <div className='h-[calc(100vh-60px)] bg-dark-cl relative flex items-center justify-center px-[5%]' key={item.id}>
               <Image className='absolute left-0 top-0 right-0 w-full h-full ' src={item.img} width={1000} height={1000} alt={item.text}/>
               <div className='absolute left-0 top-0 right-0 w-full h-full bg-[#25253185]'></div>
               <div className='z-[10] relative flex items-center justify-center h-full text-white'>
@@ -122,6 +122,8 @@ const Redirctpage=(link)=>{
              <span class="w-48 h-48 rounded rotate-[-40deg] bg-mainRed absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
              <span class="relative w-full text-left text-black transition-colors duration-300 ease-in-out group-hover:text-white">Inquiry Now</span>
              </motion.button>
+
+             
 
              </div>
               </div>

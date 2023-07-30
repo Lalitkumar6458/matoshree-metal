@@ -36,7 +36,7 @@ const Cobalt = () => {
     </ul>
     <p className='text-[1.2rem] font-poppins font-medium mt-4'>Nickel is a common material used in coins and is occasionally used as a substitute for decorative silver. Nickel foam or nickel mesh is employed in gas diffusion electrodes for alkaline fuel cells, showcasing its utility in sustainable energy technologies</p>
     <p className='text-[1.2rem] font-poppins font-medium mt-1'>
-    At <span className='text-mainRed font-medium'>Rajesh Alloys</span>, we deal in various grades of Nickel Alloy Scrap, ensuring a reliable and diverse supply for our customers' needs. Nickel scrap and nickel alloy scrap, when combined with iron and cobalt or other metals and scrap metals, exhibit strong magnetic properties. Additionally, they can be alloyed with other metals to enhance their heat and electrical conductivity.
+    At <span className='text-mainRed font-medium'>Matoshree metal & alloys</span>, we deal in various grades of Nickel Alloy Scrap, ensuring a reliable and diverse supply for our customers' needs. Nickel scrap and nickel alloy scrap, when combined with iron and cobalt or other metals and scrap metals, exhibit strong magnetic properties. Additionally, they can be alloyed with other metals to enhance their heat and electrical conductivity.
     </p>
     <p className='text-[1.2rem] font-poppins font-medium mb-5'>With its remarkable versatility and unique attributes, nickel continues to play a crucial role in a wide range of industries, contributing to advancements in technology and everyday consumer products.</p>
     </div>

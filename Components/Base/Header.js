@@ -165,11 +165,12 @@ const [open, setOpen] = useState(false);
         }, 
         
         
-        {
-            id:4,
-            name:"Quality",
-            link:"/quality"
-        },    {
+        // {
+        //     id:4,
+        //     name:"Quality",
+        //     link:"/quality"
+        // },   
+         {
             id:1,
             name:"Contact us",
             link:"/contact"
@@ -240,9 +241,9 @@ const [open, setOpen] = useState(false);
   }
   return (
    
-<div className={classNames(`w-full h-[60px] z-50 transition-all duration-300 opacity-100 translate-y-0 bg-white fixed  shadow-md px-[5%] flex items-center justify-between ${visible?"top-[0px] max-[767px]:top-[0px]":"top-[50px] max-[767px]:top-[60px]"}`)}>
-<div className='w-[150px] h-[55px]'> 
-<Image className='w-full h-full object-cover' alt="rajesh alloys" src={logo} width={300} height={200}/>
+<div className={classNames(`w-full h-[70px] z-50 transition-all duration-300 opacity-100 translate-y-0 bg-white fixed  shadow-md px-[5%] flex items-center justify-between top-0`)}>
+<div className='h-[60px] w-[250px]'> 
+<Image className='w-full h-full' alt="Matoshree metal & alloys" src={logo} width={300} height={200}/>
 </div>
 
 <div className='flex items-center gap-4'>
@@ -276,7 +277,7 @@ return <li  key={index} className={`relative group leading-[40px] w-fit rounded 
 </div>
 </div>
 
-<Drawer title={<div className='font-Oswald text-mainRed text-[23px]'>Rajesh Alloys</div>} width={300} placement="right" onClose={onClose} open={open}>
+<Drawer title={<div className='font-Oswald text-mainRed text-[20px]'>Matoshree metal & alloys</div>} width={300} placement="right" onClose={onClose} open={open}>
 <div className=''>
 
 <ul>

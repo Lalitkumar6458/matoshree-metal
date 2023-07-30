@@ -9,9 +9,9 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        "mainRed":"#EB1D36",
+        "mainRed":"#E94B3CFF",
        ' darkRed':"#981815",
-       "dark-cl":"#252531",
+       "dark-cl":"#2D2926FF",
        
        },
        fontFamily: {
@@ -22,7 +22,7 @@ module.exports = {
         'heading':['Aclonica', 'sans-serif']
       },
       backgroundImage:{
-        "footerBg":"linear-gradient(90deg, rgba(33,32,43,1) 16%, rgba(45,45,61,1) 68%, rgba(37,37,49,1) 92%)",
+        "footerBg":"linear-gradient(90deg, rgba(45,41,38,1) 16%, rgba(129,46,38,1) 56%, rgba(45,41,38,1) 92%)",
         "hoverImg":"linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(37,37,49,1) 0%, rgba(87,35,50,0.7987570028011204) 45%, rgba(122,34,51,0.8911939775910365) 71%, rgba(182,20,39,0.9752275910364145) 100%)"
       },
       boxShadow:{

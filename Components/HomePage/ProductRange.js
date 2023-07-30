@@ -45,23 +45,22 @@ const Productrange = () => {
     ];
   return (
     <div className='w-full h-auto xl:h-screen relative mt-[20px] px-[5%]  pb-[30px]'>
-    <Image className='absolute top-0 left-0 w-full h-full' src={img} width={1000} height={600} alt='landing img' />
-    <div className='absolute top-0 left-0 w-full h-full bg-[#252531cc]'></div>
+
 
     <div className='flex items-center justify-center relative pt-[20px] flex-col '>
-    <h1 className='text-[2rem] text-white font-heading'>Product Range</h1>
-    <div className='w-[100px] bg-mainRed h-2 rounded-md'></div>
+    <h1 className='text-[2rem] text-dark-cl font-heading'>Product Range</h1>
+    <div className='w-[100px] bg-mainRed h-[4px] rounded-md'></div>
     </div>
     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3  gap-3 relative mt-[20px]'>
     {
       ProductsRangeData.map((item)=>{
-        return <div className='border-2 border-solid border-mainRed p-4 hover:bg-hoverImg '>
-        <h3 className='text-[#d9e4e6] text-[1.6rem] font-Roboto font-bold'>{item.heading}</h3>
-        <p className='text-white font-poppins'>{item.text}</p>
+        return <div className='border-2 border-solid border-mainRed p-4 group hover:bg-footerBg rounded-md'>
+        <h3 className='text-dark-cl text-[1.6rem] group-hover:text-white font-Roboto font-bold'>{item.heading}</h3>
+        <p className='text-gray-800 font-poppins group-hover:text-white'>{item.text}</p>
         </div>
       })
     }
-    <div className='bg-hoverImg border-2 border-solid border-mainRed p-4'>
+    <div className='bg-footerBg border-2 border-solid border-mainRed p-4  rounded-md'>
     <div className="w-full h-full flex flex-col items-center justify-center text-white">
 <span className='text-[2rem]'><FaEnvelope/></span>
 <h2 className='text-[1.3rem] text-center mt-3'>WE ARE ALWAYS HAPPY TO HELP GET IN TOUCH WITH US TODAY!</h2>

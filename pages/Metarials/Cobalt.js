@@ -28,7 +28,7 @@ const Cobalt = () => {
     <li>Specialty Steels</li>
 
     </ul>
-    <p className='text-[1.2rem] font-poppins font-medium mt-3 mb-5'>At <span className='text-mainRed font-medium'>Rajesh Alloys</span>, we are committed to promoting sustainable practices by recycling and reusing cobalt scrap and cobalt alloy scrap, contributing to a greener and more environmentally friendly approach. We continuously strive to meet the diverse needs of our clients, providing them with reliable and high-quality materials for their specific requirements.</p>
+    <p className='text-[1.2rem] font-poppins font-medium mt-3 mb-5'>At <span className='text-mainRed font-medium'>Matoshree metal & alloys</span>, we are committed to promoting sustainable practices by recycling and reusing cobalt scrap and cobalt alloy scrap, contributing to a greener and more environmentally friendly approach. We continuously strive to meet the diverse needs of our clients, providing them with reliable and high-quality materials for their specific requirements.</p>
     </div>
     </div>
   )

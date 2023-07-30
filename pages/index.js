@@ -18,7 +18,7 @@ export default function Home() {
         <AboutHome/>
         <Productrange/>
 <OurProducts/>
-<Treding/>
+{/*<Treding/>*/}
 <Manufectruing/>
 
 <OfferCon/>
