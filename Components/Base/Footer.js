@@ -148,8 +148,7 @@ const list3=[
     window.open(url, '_blank');
   };
   const handleInsta=()=>{
-    const url='https://www.instagram.com/rajesh_alloys/?igshid=MzRlODBiNWFlZA=='
-    window.open(url, '_blank');
+   
   }
   return (
    <div className='w-full bg-footerBg px-[5%] pt-[5%] pb-4 '>

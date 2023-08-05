@@ -109,7 +109,7 @@ const ContactUs = () => {
     if (isValid) {
       setSendMessage(false)
        // Perform form submission logic here, e.g., sending data to the server
-       emailjs.send('service_bmugh1b', 'template_ca0u8mn', formValues, 'VTgQXID7Y0jR4k33a')
+      //  emailjs.send('service_bmugh1b', 'template_ca0u8mn', formData, 'VTgQXID7Y0jR4k33a')
        .then(response => {
    
          alert('Sent Message Successfully to Matoshree metal & alloys!', response)

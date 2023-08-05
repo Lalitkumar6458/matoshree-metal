@@ -59,48 +59,48 @@ const OurProducts = () => {
     
         {
             id:10,
-            img:require("../../public/Images/Our_products/IMG-20230708-WA0111.jpg"),
+            img:require("../../public/Images/Our_products/imgnew/nickelimg.jpeg"),
             heading:"NICKEL SCRAP",
             text:"",
            
         },
         {
             id:11,
-            img:require("../../public/Images/Our_products/IMG-20230707-WA0178.jpg"),
+            img:require("../../public/Images/Our_products/imgnew/inconel-800.webp"),
             heading:"INCONEL 800 SCRAP",
             text:"",
            
         },
         {
             id:12,
-            img:require("../../public/Images/Our_products/IMG-20230707-WA0176.jpg"),
+            img:require("../../public/Images/Our_products/imgnew/inconel-625.webp"),
             heading:"INCONEL 625 SCRAP",
             text:"",
            
         },
         {
             id:13,
-            img:require("../../public/Images/Our_products/Wirescrap.jpg"),
+            img:require("../../public/Images/Our_products/imgnew/wire-scrap.jpeg"),
             heading:"Wire scrap",
             text:"",
            
         },
         {
             id:14,
-            img:require("../../public/Images/Our_products/Inconel600.jpg"),
+            img:require("../../public/Images/Our_products/imgnew/inconel-601.webp"),
             heading:"INCONEL 601 SCRAP",
             text:"",
            
         },
         {
             id:15,
-            img:require("../../public/Images/Our_products/IMG-20230707-WA0179.jpg"),
+            img:require("../../public/Images/Our_products/imgnew/inconel-600.webp"),
             heading:"INCONEL 600 SCRAP",
             text:"",
            
         },{
             id:16,
-            img:require("../../public/Images/Our_products/IMG-20230708-WA0063.jpg"),
+            img:require("../../public/Images/Our_products/imgnew/plate-cut-scrap.jpg"),
             heading:"SS Cut Plate scrap",
             text:"",
            
@@ -108,42 +108,42 @@ const OurProducts = () => {
         
         {
         id:1,
-        img:require("../../public/Images/Our_products/IMG-20230707-WA0197.jpg"),
+        img:require("../../public/Images/Our_products/imgnew/grinding-dust.webp"),
         heading:"GRINDING DUST",
         text:"",
        
     },
     {
         id:2,
-        img:require("../../public/Images/Our_products/IMG-20230707-WA0192.jpg"),
+        img:require("../../public/Images/Our_products/imgnew/nichrome-scrap.webp"),
         heading:"NICHROME SCRAP",
         text:"",
        
     },
     {
         id:5,
-        img:require("../../public/Images/Our_products/IMG-20230707-WA0190.jpg"),
+        img:require("../../public/Images/Our_products/imgnew/nimonic80-scrap.webp"),
         heading:"NIMONIC 80",
         text:"",
        
     },
     {
         id:3,
-        img:require("../../public/Images/Our_products/IMG-20230707-WA0189.jpg"),
+        img:require("../../public/Images/Our_products/imgnew/monel-scrap.webp"),
         heading:"MOLLY METAL SCRAP",
         text:"",
        
     },
     {
         id:7,
-        img:require("../../public/Images/Our_products/IMG-20230707-WA0186.jpg"),
+        img:require("../../public/Images/Our_products/imgnew/round-cut-scrap.webp"),
         heading:"ROUND CUT PIECE SCRAP",
         text:"",
        
     },
     {
         id:4,
-        img:require("../../public/Images/Our_products/IMG-20230707-WA0185.jpg"),
+        img:require("../../public/Images/Our_products/imgnew/forging-flush-scrap.webp"),
         heading:"FORGING FLUSH SCRAP",
         text:"",
        
@@ -151,7 +151,7 @@ const OurProducts = () => {
     
     {
         id:6,
-        img:require("../../public/Images/Our_products/IMG-20230707-WA0184.jpg"),
+        img:require("../../public/Images/Our_products/imgnew/monel-scrap.webp"),
         heading:"MONEL SCRAP",
         text:"",
        
@@ -159,79 +159,67 @@ const OurProducts = () => {
     
     {
         id:8,
-        img:require("../../public/Images/Our_products/IMG-20230707-WA0175.jpg"),
+        img:require("../../public/Images/Our_products/imgnew/304-scrap.jpg"),
         heading:"304L SCRAP",
         text:"",
        
     },
     {
         id:9,
-        img:require("../../public/Images/Our_products/IMG-20230707-WA0182.jpg"),
+        img:require("../../public/Images/Our_products/imgnew/pipe-cut-scrap.jpeg"),
         heading:"PIPE CUTTING SCRAP",
         text:"",
        
     },
-    {
-        id:17,
-        img:require("../../public/Images/Our_products/IMG-20230707-WA0181.jpg"),
-        heading:"SOLIDS MOSTLY SCRAP",
-        text:"",
-       
-    },{
+   {
         id:18,
-        img:require("../../public/Images/Our_products/IMG-20230707-WA0180.jpg"),
+        img:require("../../public/Images/Our_products/imgnew/310 scrap.webp"),
         heading:"310  CASTINGS SCRAP",
         text:"",
        
     },{
         id:19,
-        img:require("../../public/Images/Our_products/turning.jpg"),
+        img:require("../../public/Images/Our_products/imgnew/titanium-scrap.webp"),
         heading:"TURNING SCRAP",
         text:"",
-       
     },
-    {
-        id:20,
-        img:require("../../public/Images/Our_products/IMG-20230707-WA0171.jpg"),
-        heading:"RUNNER RAZER SCRAP",
-        text:"",
-       
-    },
+    // {
+    //     id:20,
+    //     img:require("../../public/Images/Our_products/IMG-20230707-WA0171.jpg"),
+    //     heading:"RUNNER RAZER SCRAP",
+    //     text:"",
+    // },
 
-    {
-        id:21,
-        img:require("../../public/Images/Our_products/IMG-20230707-WA0172.jpg"),
-        heading:"TITANIUM SCRAP",
-        text:"",
-       
-    },
+    // {
+    //     id:21,
+    //     img:require("../../public/Images/Our_products/IMG-20230707-WA0172.jpg"),
+    //     heading:"TITANIUM SCRAP",
+    //     text:"",
+    // },
     
     {
         id:22,
-        img:require("../../public/Images/Our_products/IMG-20230707-WA0174.jpg"),
+        img:require("../../public/Images/Our_products/imgnew/cobalt-sc rap.webp"),
         heading:"COBALT SCRAP",
         text:"",
-       
     },
-    
     {
         id:23,
-        img:require("../../public/Images/Our_products/IMG-20230707-WA0183.jpg"),
+        img:require("../../public/Images/Our_products/imgnew/904l-scrap.webp"),
         heading:"904L SCRAP",
         text:"",
-       
     },
     
     {
         id:24,
-        img:require("../../public/Images/Our_products/alloy20.jpg"),
+        img:require("../../public/Images/Our_products/imgnew/alloy20 scrap.webp"),
         heading:"ALLOYS 20 SCRAP",
         text:"",
        
     },
     {
         id:25,
-        img:require("../../public/Images/Our_products/platecut.jpg"),
+        img:require("../../public/Images/Our_products/imgnew/hastloalloy-scrap.webp"),
         heading:"Hastelloy Alloys SCRAP",
         text:"",
        

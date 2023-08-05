@@ -6,37 +6,37 @@ const Manufectruing = () => {
     const data=[{
         id:1,
         heading:"STAINLESS STEEL ROUND BARS",
-        img:require("../../public/Images/manufectruing/roudbar.jpg"),
+        img:require("../../public/Images/manufectruing/roundbar.webp"),
         text:""
     },
     {
         id:2,
         heading:"STAINLESS STEEL BILLETS",
-        img:require("../../public/Images/manufectruing/IMG-20230721-WA0005.jpg"),
+        img:require("../../public/Images/manufectruing/billets.jpg"),
         text:""
     },
     {
         id:3,
         heading:"STAINLESS STEEL FLAT BARS",
-        img:require("../../public/Images/manufectruing/Fimg1.jpg"),
+        img:require("../../public/Images/manufectruing/flatbar.jpg"),
         text:""
     },
     {
         id:4,
         heading:"STAINLESS STEEL IGNOTS",
-        img:require("../../public/Images/manufectruing/ingots.jpeg"),
+        img:require("../../public/Images/manufectruing/ignots.webp"),
         text:""
     },
     {
         id:5,
         heading:"STAINLESS STEEL SQUARE BARS",
-        img:require("../../public/Images/manufectruing/img10.png"),
+        img:require("../../public/Images/manufectruing/squerbar.webp"),
         text:""
     },
     {
         id:6,
         heading:"STAINLESS STEEL FORGING BARS",
-        img:require("../../public/Images/manufectruing/IMG-20230721-WA0006.jpg"),
+        img:require("../../public/Images/manufectruing/forgingbar.jpg"),
         text:""
     }
 
