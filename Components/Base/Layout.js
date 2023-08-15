@@ -5,6 +5,7 @@ import TopInfo from './TopInfo'
 import ScrollTop from './ScrollTop'
 
 import Head from 'next/head'
+import InfoBox from './InfoBox'
 
 const Layout = ( {children}) => {
 
@@ -20,7 +21,7 @@ const Layout = ( {children}) => {
 
     {/* Keywords Tag */}
     <meta name="keywords" content="Matoshree metal & alloys, Stainless Steel Products, Stainless Steel Grades, Stainless Steel Alloys, 304L, 316L, 321, 347, 309, 310, Titanium, Molybdenum, Nickel, Tungsten, Niobium, Hastelloy, Nichrome, Monel, Nimonic, Cobalt, Inconel, 800, 825, 601, 600, 625, 718, X750, SMO, 904L, Alloy 20, Duplex, Ferro Alloys, Forging Flush, Turning, Solid Materials, Runner Razors, Plate Cuttings, Round Cut Pieces, Pipe Cuttings , stainless steel products, commercial stainless steel, industrial stainless steel, stainless steel grades, stainless steel alloys, titanium alloys, molybdenum alloys, nickel alloys, tungsten alloys, hastelloy alloys, nichrome alloys, monel alloys, nimonic alloys, cobalt alloys, inconel alloys, 800 alloys, 825 alloys, 601 alloys, 600 alloys, 625 alloys, 718 alloys, X750 alloys, SMO alloys, 904L alloys, Alloy 20, duplex alloys, ferro alloys, forging flush, turning materials, solid materials, runner razors, plate cuttings, round cut pieces, pipe cuttings." />
-    <meta name="author" content='www.rajeshalloys.com'/>
+    <meta name="author" content='www.matoshreemetalandalloys.com'/>
     <meta name="google-site-verification" content="dSAvk_6wAT2Wy9MPLLB9b3AogF0wOvXncHS1r0Y_DSc" />
   </Head>
   <div>
@@ -29,6 +30,7 @@ const Layout = ( {children}) => {
  <div className='mt-[60px]'>
  {children}
  </div>
+ <InfoBox/>
   <Footer/>
   <ScrollTop/>
   </div>

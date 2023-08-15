@@ -7,6 +7,11 @@
 :root{
     --mainRed:#E94B3CFF;
     --dark-cl:#2D2926FF;
+    --white: #fff;
+    --light-color: #666;
+    --light-bg: #eee;
+    --bgr-color-hole: #f8f8ff;
+    --black:#2D2926FF;
 }
 /* WebKit (Safari and Chrome) */
 ::-webkit-scrollbar {
@@ -178,6 +183,128 @@ background-color:var(--mainRed) !important;
 }
 .producttext::-webkit-scrollbar {
     display: none !important;
+}
+.contact-info_h {
+
+  width: 100%;
+  background: var(--bgr-color-hole);
+  height: 100%;
+  text-align: center;
+  padding: 10px;
+
+}
+
+.contact-info_h .active {
+  -webkit-box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.7);
+  display: block;
+}
+
+.contact-info_h #close-contact-info {
+  position: absolute;
+  top: 0.5rem;
+  right: 1.5rem;
+  cursor: pointer;
+  font-size: 4rem;
+  color: var(--black);
+}
+
+.contact-info_h #close-contact-info:hover {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.contact-info_h .info {
+  padding: 0.5rem 0;
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-info_h .info a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-info_h .info .icons_box {
+  height: 3.5rem;
+  width: 3.5rem;
+  line-height: 3.5rem;
+  font-size: 1.5rem;
+  background: var(--light-bg);
+  color: var( --dark-cl);
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  border-radius: 10px;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-info_h .info .icons{
+
+}
+
+.contact-info_h .info .icons_box:hover {
+  background: var(--mainRed);
+  color: var(--white);
+}
+
+.contact-info_h .info h3 {
+  font-size: 1.2rem;
+  color: var(--black);
+  text-transform: capitalize;
+  padding: 0.5rem 0;
+}
+
+.contact-info_h .info p {
+  font-size: 1.1rem;
+  color: var(--light-color);
+  line-height: 2;
+}
+
+.contact-info_h .share {
+  padding-top: 1.6rem;
+  border-top: var(--border);
+  margin-top: 1rem;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-info_h .share a {
+  height: 3.5rem;
+  width: 3.5rem;
+  line-height: 3.5rem;
+  font-size: 1.5rem;
+  background: var(--light-bg);
+  color: var(--dark-cl);
+  cursor: pointer;
+  text-align: center;
+  margin: 0 0.3rem;
+  text-decoration: none;
+  border-radius: 10px;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.close-info{
+  font-size: 3rem;
+}
+.contact-info_h .share a:hover {
+  background: var(--mainRed);
+  color: var(--white);
+}
+.hover_border{
+  transition: all 0.5s ease;
+}
+.hover_border:hover{
+    border: 2px solid var(--dark-cl);
+}
+.infoBox .ant-drawer-wrapper-body{
+  background-color: var(--bgr-color-hole) !important;
+}
+.infoBox .anticon-close{
+  color: var(--dark-cl);
 }
 @media screen and (max-width:767px){
     .productSlider .slick-track{

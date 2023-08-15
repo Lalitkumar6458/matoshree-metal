@@ -100,27 +100,17 @@ const ContactUs = () => {
     const isValid = validateForm();
 
     if (isValid) {
-      // Form submission logic here (Replace with your actual logic)
-      console.log(formData);
-      // Reset the form after successful submission
-      setFormData(initialFormData);
-      setFormErrors({});
-    }
-    if (isValid) {
       setSendMessage(false)
+    
        // Perform form submission logic here, e.g., sending data to the server
-      //  emailjs.send('service_bmugh1b', 'template_ca0u8mn', formData, 'VTgQXID7Y0jR4k33a')
+       emailjs.send('service_bmugh1b', 'template_ca0u8mn', formData, 'VTgQXID7Y0jR4k33a')
        .then(response => {
    
          alert('Sent Message Successfully to Matoshree metal & alloys!', response)
        
          setSendMessage(true)
-         setFormValues({
-          name: "",
-          email: "",
-          phoneNo: "",
-          message: "",
-        })
+         setFormData(initialFormData);
+         setFormErrors({});
        }, error => {
         
          alert('FAILED...',error)
