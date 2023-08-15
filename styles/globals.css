@@ -263,9 +263,9 @@ background-color:var(--mainRed) !important;
 }
 
 .contact-info_h .share {
-  padding-top: 1.6rem;
+  padding-top: 5px;
+  padding-bottom: 10px;
   border-top: var(--border);
-  margin-top: 1rem;
       display: flex;
     align-items: center;
     justify-content: center;
@@ -305,6 +305,9 @@ background-color:var(--mainRed) !important;
 }
 .infoBox .anticon-close{
   color: var(--dark-cl);
+}
+.infoBox .ant-drawer-body{
+padding: 0px 16px !important;
 }
 @media screen and (max-width:767px){
     .productSlider .slick-track{
