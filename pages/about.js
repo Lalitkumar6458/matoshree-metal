@@ -127,7 +127,7 @@ const About = () => {
   </div>
   <div className='mt-[20px]'>
   
-  <p className='text-[1.2rem] font-poppins'>  Welcome to <span className='text-mainRed font-bold'>"Matoshree Metal and Alloys"</span>, a trusted name in the steel and alloys industry with a legacy of excellence spanning several years. Headquartered in Mumbai, our unwavering commitment to quality and dedicated team has allowed us to establish VJ Steels and Alloys as a recognized and reputable company with an extensive network.</p>
+  <p className='text-[1.2rem] font-poppins'>  Welcome to <span className='text-mainRed font-bold'>"Matoshree Metal and Alloys"</span>, a trusted name in the steel and alloys industry with a legacy of excellence spanning several years. Headquartered in Mumbai, our unwavering commitment to quality and dedicated team has allowed us to establish Matoshree Metal and Alloys as a recognized and reputable company with an extensive network.</p>
   <p className='text-[1.2rem]  font-poppins'> 
   Our core expertise lies in import, export, and stocking of premium steel and alloys, offering an impressive array of products to meet diverse industrial needs. With an unwavering focus on quality, we subject all our materials to rigorous and comprehensive quality checks and assurance processes. This ensures that we consistently deliver nothing but the best output to our valued clients.
  </p>
