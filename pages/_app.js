@@ -11,8 +11,6 @@ export default function App({ Component, pageProps }) {
   return(<>
     {loading?<div ><Loader/></div>:<Layout>
       <Component {...pageProps} />
-
-      
       </Layout>
     }
     </>

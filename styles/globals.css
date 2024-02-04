@@ -160,6 +160,9 @@ background-color:var(--mainRed) !important;
     transform-origin: right bottom;
   }
 }
+html{
+  overflow-x: hidden;
+}
 
    .ourProducts .slick-track{
     display: flex !important;

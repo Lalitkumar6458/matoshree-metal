@@ -163,7 +163,58 @@ const ContactUs = () => {
           <hr />
 
           <div className="mt-7">
-            {contactInfo.map((item) => {
+   <div className=" font-poppins text-[15px] font-medium">
+   <h3 className="text-[18px] font-Roboto font-semibold">Ahmedabad Office</h3>
+
+   <div className="flex justify-start items-center gap-2 mt-2">
+   <FaLocationDot className="text-[20px] w-[30px]" />
+   <p className="pr-2">Behind Gokul Estate, Shed No. B/49, Govardhan Bus Hub, Kathwada-Singarva Rd, Ahmedabad, Gujarat 382430</p>
+   </div>
+   <div className="flex justify-start items-center gap-2 mt-2">
+   <FaPhoneAlt className="text-[20px] " />
+   <p className="">
+   Kamlesh Modi: +91 9702395641 / 8320668223
+   </p>
+   </div>
+   <div  className="flex justify-start items-center gap-2 mt-2">
+   <FaEnvelope className="text-[20px] " />
+   <div className="">
+   <p className="">matoshreemetal2022@gmail.com</p>
+   <p className="mt-1">kkmodi5641@Gmail.com</p>
+   </div>
+   </div>
+   </div>
+   <div className=" font-poppins text-[15px] font-medium mt-3">
+   <h3 className="text-[18px] font-Roboto font-semibold">Mumbai Office</h3>
+
+   <div className="flex justify-start items-center gap-2 mt-2">
+   <FaLocationDot className="text-[20px] w-[30px]" />
+   <p className="pr-2">
+   B14,B Wing,Ground Floor, Shivam Building, Kamathipura 11Th Lane. Mumbai Center, Mumbai 400008</p>
+   </div>
+   <div className="flex justify-start items-center gap-2 mt-2">
+   <FaPhoneAlt className="text-[20px] " />
+   <div className="">
+   <p className="">
+   Prabhuram Modi: +91 9323646347
+   </p>
+   <p className="mt-1">
+   Hitesh Modi: +91 7425007638
+   </p>
+   </div>
+   
+   </div>
+   <div  className="flex justify-start items-center gap-2 mt-2">
+   <FaEnvelope className="text-[20px] " />
+   <div className="">
+   <p className="">matoshree1979@gmail.com</p>
+   </div>
+   </div>
+   </div>
+
+         
+
+           {/* {contactInfo.map((item) => {
               return (
                 <div className="flex items-start gap-6 mb-7 h-[100px]">
                   <div
@@ -181,7 +232,7 @@ const ContactUs = () => {
                   </div>
                 </div>
               );
-            })}
+            })}*/}
           </div>
         </div>
         <div className="flex-[100%] md:flex-[60%] bg-white h-full rounded-[10px] ml-2 px-[5%] py-[6%]">
