@@ -48,7 +48,6 @@ const ContactUs = () => {
     phoneNumber: "",
     email: "",
     message: "",
-    agreeTerms: false,
   };
 
   const [formData, setFormData] = useState(initialFormData);
@@ -86,10 +85,7 @@ const ContactUs = () => {
       isValid = false;
     }
 
-    if (!formData.agreeTerms) {
-      errors.agreeTerms = "You must agree to the Terms & Conditions";
-      isValid = false;
-    }
+
 
     setFormErrors(errors);
     return isValid;
@@ -103,7 +99,7 @@ const ContactUs = () => {
       setSendMessage(false)
     
        // Perform form submission logic here, e.g., sending data to the server
-       emailjs.send('service_bmugh1b', 'template_ca0u8mn', formData, 'VTgQXID7Y0jR4k33a')
+       emailjs.send('service_iszhlaw', 'template_3kpsgau', formData, 'PltsC3u7FAloZ9D2f')
        .then(response => {
    
          alert('Sent Message Successfully to Matoshree metal & alloys!', response)
@@ -114,6 +110,7 @@ const ContactUs = () => {
        }, error => {
         
          alert('FAILED...',error)
+         console.log("error",error)
        });
      }
   };
@@ -308,35 +305,19 @@ const ContactUs = () => {
                 </div>
               </div>
               <div className="flex items-center justify-between mt-8 flex-wrap ">
-                <div className="form-check mb-3 md:mb-0">
-                  <input
-                    className="form-check-input"
-                    type="checkbox"
-                    value={formData.agreeTerms}
-                    onChange={handleChange}
-                    id="flexCheckDefault"
-                    name="agreeTerms"
-                  />
-                  <label
-                    className="form-check-label mx-2"
-                    htmlFor="flexCheckDefault"
-                  >
-                    I agree to the{" "}
-                    <span className="text-orange-600">
-                      Terms &amp; Conditions
-                    </span>
-                  </label>
-                  {formErrors.agreeTerms && (
-                    <p className="text-red-500">{formErrors.agreeTerms}</p>
-                  )}
-                </div>
+              
                 <div className="contact-sub-btn">
                   <button
                     className="bg-[#EA1E00] px-3 py-3 text-white flex whitespace-nowrap items-center text-[1.3rem] rounded"
                     type="submit"
                     onClick={handleSubmit}
                   >
+                  {
+                    sendMeassege?<span className="flex items-center gap-2">
                     Send Message <FaAngleRight />
+                    </span>:'Sending...'
+                  }
+                  
                   </button>
                 </div>
               </div>
